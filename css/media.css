@@ -1,0 +1,107 @@
+@media (max-width: 1023px) {
+	.img-item {
+		width: 33.33%;
+	}
+	.person-item {
+	width: 50%;
+}
+.contact-form input {
+	width: 90%;
+}
+
+}
+
+@media (max-width: 767px) {
+	.img-item {
+		width: 100%;
+	}
+.main-wrapper {
+	font-size: 0.75rem;
+}
+
+.row {
+	padding: 0 10px;
+}
+
+.container {
+	padding: 0; 
+}
+
+.main-nav {
+	display: block;
+}
+
+.main-nav a {
+	width: 100%;
+	border-left: 0;
+	border-bottom: 1px solid white;
+}
+
+.main-nav li:first-child a {
+	border-top: 1px solid white; 
+}
+
+.main-nav li:last-child a {
+	border: none;
+}
+
+.nav-bar {
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nav {
+	position: absolute;
+	z-index: 99;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	background-color: grey;
+	transform: translateX(100%);
+	transition: transform 1s ease;
+}
+
+.nav.active {
+	transform: translateX(0);
+}
+
+#nav-opener {
+	display: block;
+}
+
+.person-item {
+	width: 100%;
+}
+
+.img-item {
+	width: 50%
+}
+
+form {
+	width: 100%;
+	padding: 20px 10px;
+	margin: 0;
+}
+.contact-form input {
+	width: 100%;
+}
+
+.search-form {
+	max-width: 50%;
+	padding: 0;
+}
+
+.search-form button {
+	margin-right: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
