@@ -1,6 +1,10 @@
+##Task 1.2
 ```
-var numbers = [ 254, 115, 78, 25, 91, 45, 37 ]	
-for (var i = 0;  i < numbers.length ;  i++ ) {
-    if ( numbers[i] > 50 ) console.log ( numbers[i] )
+var i = 0
+for (i;; i++) {
+   var cash = i*100
+   if (cash >= 660) break;
 }
+console.log(i);
+console.log(cash);
 ```
