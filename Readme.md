@@ -1,4 +1,4 @@
-##Task 1.2
+## Task 1.2
 ```
 var i = 0
 for (i;; i++) {
